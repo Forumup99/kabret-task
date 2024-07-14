@@ -42,6 +42,7 @@ const isSmallScreen = ref(false);
 function getScreenWidth() {
   if (window.innerWidth < 1200) {
     isSmallScreen.value = true;
+    isSideBraVisible.value = false;
   } else {
     isSmallScreen.value = false;
   }
