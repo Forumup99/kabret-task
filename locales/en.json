@@ -12,7 +12,8 @@
     "add_user": "Add User",
     "profile": "Profile",
     "settings": "Settings",
-    "logout": "Logout"
+    "logout": "Logout",
+    "user": "User"
   },
   "TITLES": {
     "kabret": "Kabret",
@@ -105,7 +106,9 @@
     "add_user": "Add User",
     "products": "Products",
     "productsInCategory": "Products In Category",
-    "BrowserImages": "Browser Images"
+    "BrowserImages": "Browser Images",
+    "latitude": "Latitude",
+    "longitude": "Longitude"
   },
   "INPUTS": {
     "username": "Enter your Username",

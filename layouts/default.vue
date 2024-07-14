@@ -45,6 +45,7 @@ function getScreenWidth() {
     isSideBraVisible.value = false;
   } else {
     isSmallScreen.value = false;
+    isSideBraVisible.value = true;
   }
 }
 

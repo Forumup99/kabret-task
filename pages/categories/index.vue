@@ -7,13 +7,14 @@
         <h1 class="md:text-2xl font-semibold">{{ $t("NAV.categories") }}</h1>
 
         <ClientOnly>
-          <NuxtLink
-            :to="localePath('/categories')"
-            class="base-btn-white flex max-w-[180px] text-sm items-center justify-center gap-2"
+          <button
+            type="button"
+            disabled
+            class="base-btn-white flex max-w-[180px] text-sm items-center justify-center gap-2 disabled:!bg-transparent disabled:!text-primary disabled:cursor-not-allowed"
           >
             <i class="fal fa-plus"></i>
             {{ $t("LABELS.add_categories") }}
-          </NuxtLink>
+          </button>
         </ClientOnly>
       </div>
 

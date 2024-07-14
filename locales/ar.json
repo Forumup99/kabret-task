@@ -12,7 +12,8 @@
     "add_user": "إضافة مستخدم",
     "profile": "الملف الشخصي",
     "settings": "الإعدادات",
-    "logout": "تسجيل الخروج"
+    "logout": "تسجيل الخروج",
+    "user": "مستخدم"
   },
   "TITLES": {
     "kabret": "كبريت",
@@ -105,7 +106,9 @@
     "add_user": "إضافة مستخدم",
     "products": "المنتجات",
     "productsInCategory": "المنتجات في الفئة",
-    "BrowserImages": "تصفح الصور"
+    "BrowserImages": "تصفح الصور",
+    "latitude": "خط العرض",
+    "longitude": "خط الطول"
   },
   "INPUTS": {
     "username": "أدخل اسم المستخدم الخاص بك",
